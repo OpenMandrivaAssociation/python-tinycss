@@ -1,11 +1,13 @@
+%define partnme tinycss 
+
 Name:           python-tinycss
 Summary:        CSS parser for Python
-Version:        0.3
+Version:        0.4
 Release:        1
 Group:          System/Libraries
 License:        BSD
 URL:            http://pythonhosted.org/tinycss/
-Source0:        https://github.com/SimonSapin/tinycss/archive/v%{version}.tar.gz
+Source0:        https://github.com/SimonSapin/tinycss/archive/%{partnme}-%{version}.tar.gz
 
 BuildRequires:  dos2unix
 BuildRequires:  python-devel python-setuptools python-cython
