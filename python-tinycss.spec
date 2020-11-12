@@ -1,3 +1,4 @@
+%global debug_package %{nil}
 %define partnme tinycss 
 
 Name:           python-tinycss
