@@ -3,15 +3,19 @@
 Name:           python-tinycss
 Summary:        CSS parser for Python
 Version:        0.4
-Release:        2
+Release:        3
 Group:          System/Libraries
 License:        BSD
 URL:            http://pythonhosted.org/tinycss/
 Source0:        https://github.com/SimonSapin/tinycss/archive/%{partnme}-%{version}.tar.gz
 
 BuildRequires:  dos2unix
-BuildRequires:  python-devel python-setuptools python-cython
-BuildRequires:  python2-devel python2-setuptools python2-cython
+BuildRequires:  python-devel 
+BuildRequires:  python-setuptools 
+BuildRequires:  python-cython
+BuildRequires:  python2-devel 
+BuildRequires:  python2-setuptools 
+BuildRequires:  python2-cython
 
 # Do not check .so files in the python_sitelib directory
 # or any files in the application's directory for provides
@@ -62,4 +66,3 @@ popd
 %files -n python2-tinycss
 %doc LICENSE README.rst
 %{python2_sitearch}/*
-
