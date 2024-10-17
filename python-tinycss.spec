@@ -7,7 +7,7 @@ Version:        0.4
 Release:        4
 Group:          System/Libraries
 License:        BSD
-URL:            http://pythonhosted.org/tinycss/
+URL:            https://pythonhosted.org/tinycss/
 Source0:        https://github.com/SimonSapin/tinycss/archive/%{partnme}-%{version}.tar.gz
 
 BuildRequires:  dos2unix
