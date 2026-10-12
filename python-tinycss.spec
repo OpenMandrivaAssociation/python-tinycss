@@ -4,7 +4,7 @@
 Name:           python-tinycss
 Summary:        CSS parser for Python
 Version:        0.4
-Release:        5
+Release:        6
 Group:          System/Libraries
 License:        BSD
 URL:            https://pythonhosted.org/tinycss/
